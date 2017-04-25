@@ -1,4 +1,7 @@
-# api documentation for  [antd (v2.9.1)](http://ant.design/)  [![npm package](https://img.shields.io/npm/v/npmdoc-antd.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-antd) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-antd.svg)](https://travis-ci.org/npmdoc/node-npmdoc-antd)
+# npmdoc-antd
+
+#### basic api documentation for  [antd (v2.9.3)](http://ant.design/)  [![npm package](https://img.shields.io/npm/v/npmdoc-antd.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-antd) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-antd.svg)](https://travis-ci.org/npmdoc/node-npmdoc-antd)
+
 #### An enterprise-class UI design language and React-based implementation
 
 [![NPM](https://nodei.co/npm/antd.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/antd)
@@ -33,14 +36,15 @@
         "css-animation": "^1.2.5",
         "dom-closest": "^0.2.0",
         "lodash.debounce": "^4.0.8",
-        "moment": "~2.18.0",
+        "moment": "^2.18.1",
         "object-assign": "~4.1.0",
         "omit.js": "^0.1.0",
+        "prop-types": "^15.5.7",
         "rc-animate": "~2.3.0",
-        "rc-calendar": "~7.8.0",
+        "rc-calendar": "~8.0.0",
         "rc-cascader": "~0.11.0",
         "rc-checkbox": "~1.5.0",
-        "rc-collapse": "~1.6.4",
+        "rc-collapse": "~1.7.0",
         "rc-dialog": "~6.5.0",
         "rc-dropdown": "~1.4.8",
         "rc-editor-mention": "~0.5.2",
@@ -119,7 +123,7 @@
         "rc-scroll-anim": "^1.0.3",
         "rc-tween-one": "^1.1.2",
         "react": "^15.0.0",
-        "react-addons-test-utils": "^15.0.0",
+        "react-addons-test-utils": "^15.5.1",
         "react-color-standalone": "^2.4.2-1",
         "react-copy-to-clipboard": "^4.0.1",
         "react-document-title": "^2.0.1",
@@ -128,6 +132,7 @@
         "react-intl": "^2.0.1",
         "react-stateless-wrapper": "^1.0.2",
         "react-sublime-video": "^0.2.0",
+        "react-test-renderer": "^15.5.4",
         "reqwest": "^2.0.5",
         "rimraf": "^2.5.4",
         "stylelint": "^7.8.0",
@@ -139,14 +144,14 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "327ecee8264b77cb6c14fcb1e1ecd0d8a2da5d5f",
-        "tarball": "https://registry.npmjs.org/antd/-/antd-2.9.1.tgz"
+        "shasum": "5b40349827fab882d73bd97707d614709a620863",
+        "tarball": "https://registry.npmjs.org/antd/-/antd-2.9.3.tgz"
     },
     "files": [
         "dist",
         "lib"
     ],
-    "gitHead": "85615771d50924ab99ac9b9dcd75ac61b9f5e89b",
+    "gitHead": "2325da5c3e18faf5dee8477312b66a5ff0d6fb60",
     "homepage": "http://ant.design/",
     "jest": {
         "setupFiles": [
@@ -254,7 +259,8 @@
     },
     "title": "Ant Design",
     "typings": "lib/index.d.ts",
-    "version": "2.9.1"
+    "version": "2.9.3",
+    "bin": {}
 }
 ```
 
